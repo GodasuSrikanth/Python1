@@ -30,9 +30,47 @@ else:
     print("its a lovely day") """
 
 #while loops
-i=1
+""" i=1
 while i<=5:
     print("*"* i)
     i=i+1
-    
+     """
+
+     #lists
+
+""" list1 = ["laxman", "ramu", "somu"]
+list2 = [1,2,3,4,5]
+list3 = [True, False, False]
+
+print(list1)
+print(list2)
+print(list3) """
+
+#for loop
+""" languages = ["java", "python", "c#"]
+for x in languages:
+  print(x) 
+  if x == "python":
+    break """
+
+#functions
+""" def my_function(name):
+  print(name + " ")
+
+my_function("math")
+my_function("range")
+my_function("mathadd") """
+
+
+
+#class and objects
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+p1 = Person("srikanth", 23)
+
+print(p1.name)
+print(p1.age)
     
